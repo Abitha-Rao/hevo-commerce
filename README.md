@@ -1,6 +1,6 @@
 # Hevo Commerce — *Five channels. One trusted Monday number.*
 
-**▶ Live demo:** LIVE_URL &nbsp;·&nbsp; *Product Manager take-home for Hevo Data. A proposed feature, built as a working prototype with synthetic data.*
+**▶ Live demo: [abitha-rao.github.io/hevo-commerce](https://abitha-rao.github.io/hevo-commerce/)** &nbsp;·&nbsp; **Code:** [github.com/Abitha-Rao/hevo-commerce](https://github.com/Abitha-Rao/hevo-commerce)<br> &nbsp;·&nbsp; *Product Manager take-home for Hevo Data. A proposed feature, built as a working prototype with synthetic data.*
 
 ---
 
@@ -102,6 +102,8 @@ npm install
 npm run dev      # http://localhost:5174
 npm run build    # type-check + production build
 ```
+
+**Hosting:** the live demo is served by GitHub Pages from the `gh-pages` branch. To redeploy, run `PAGES_BASE=/hevo-commerce/ npm run build` and push `dist/` to `gh-pages`. A `vercel.json` is included for one-click Vercel import.
 
 The guided tour launches on the first visit. You can restart it from the header or the sidebar. Use **Settings → Reset demo workspace** to restore the initial state.
 
